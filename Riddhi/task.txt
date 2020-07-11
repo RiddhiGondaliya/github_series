@@ -1,0 +1,60 @@
+
+
+Hello! here is my task 1 and task 2
+
+Task 1:
+
+1. What do you mean by git and GitHub?
+ans : - Git is open source version control system. its is powerful application. we can use git in the local system after installing it.
+      -  Git is a version control tool, while Github is the service that hosts the git projects.
+	  - to woek with the Git, we don't required to use Github.
+2. Why GitHub is so popular and used in most of the projects?
+Ans : - Github is a Git repository hosting service, which provides web- based graphical interface.it helps every team member to work together on the project from anywhere an makes easy for them to collaborate.
+      - pull request helps team to  review, improve,  and propose a new codes on Github. the implementation and and praposals can be discussed  before changing the source code.
+				
+3. What is a version control system? How Git is a VCS?
+Ans : - Version control system is to help you maintain  a detailed history of the project as well as the ability to work on a diffrent versions of it. having a detailed history of the project is important because it lets you see the progress of the project over time.if needed, you can also jump back to any point in the project to recover data or files.
+
+4. What are the other platforms similar to GitHub?
+Ans : -  Bitbucket 
+      -  SourceForge
+	  -  Google Cloud Source Repositories. 
+5. Why are you interested in learning of Git and Github?
+Ans : - because its really easy to use and, we can track the current code. also its save the history of the previous code, whenever we need to add a new feature in the previous code we can use it easily by commiting the previous code. also we can clone, push or pull the code anytime.
+
+
+================
+Task 2
+
+1) Share the link to the GitHub repository you have created?
+https://github.com/RiddhiGondaliya/git_series_practice
+
+2.Your README should contain a brief about the project and should be written in markdown language.
+https://github.com/RiddhiGondaliya/git_series_practice/blob/master/README.md
+
+a. How git workflow works?
+Ans : four things are imporatnt in git workflow
+     workspace(working directory) 
+	 index (stage)
+	 loacl repository
+	 Remote repository
+	 - in workspace we can create a newfiles or making some changes or we can modify the file, the following changes are tagged by stage called index. stage means that the file is basically part of the index
+	 - Git clone command: Git clone command is used create a copy for that respository in the workspace.
+	 - Git add command : git add command are used to add the file in the index but not actully commited to the loacl respository. so for commiting the file we need to execute the git commit command, by using this command all the file that are staged is realesed in the loacl respository
+	    using loacal respository  we can explisitly push our changes into the Remote repository. after this all of the changes will be visible to anyone who have access of the remote repository.
+    - we can also get the local respositoy from the Remote repository by using git fetch or the git pull command. by using the git pull command whatever the changes form the remote repository we get directly into the loacl repository and the workspace at once.
+	- git mearge command, it will change to the loacal repository and get them to our workspace, so at that point files will be updated to what is in a remote repository.
+	
+b.  What're the different stages of a git project as commit, add?
+Ans : we are using git add, when we need to change in the current working file, or we can modify the file by using git add command.
+      or git commit command is used when all changes are made into the workspace after that we will commit into the loacal repository .
+	  
+c. Is it possible to do a git commit before git add . if you have made any changes? Explain why?
+- no i think not, becuase first we will use git add command to make changes or may we modify the code or etc. so after all changes are made then final code of that working file will be commited into the loacl repository.
+   for example :  in first.txt i have added some text, or deleted some text. so those all are chnages are saved in the staged called index. After final change i will do commit into the local repository.
+
+d. Why is git diff used?
+-  git diff is used to get the diffrence between my loac files, the files in my working directory. and the file in my local repository, so fetch this file from the remote respository we can use git diff command an check the what are the diffrences are. and based on their diffrences whether i want to mearge or not.
+
+e. Can we leave the commit message as blank?
+Ans : yes we can, but its a good habbit when we commit message with proper sentance, so next time whenever we see the file we can get idea about what chnages we have made or what is in file about.
